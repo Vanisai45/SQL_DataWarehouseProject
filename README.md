@@ -8,7 +8,7 @@ This repository presents a complete data warehousing and analytics solution usin
 
 This project uses the **Medallion Architecture** model with three layers:
 
-![Data Architecture](docs/data_architecture.png)
+## 📖 Data Architecture
 
 1. **Bronze Layer**: Ingests raw data from CSV files into SQL Server.
 2. **Silver Layer**: Performs data cleansing, standardization, and transformations.
@@ -70,7 +70,6 @@ Create SQL queries and reports to analyze:
 * Product performance
 * Sales trends
 
-Refer to [`docs/requirements.md`](docs/requirements.md) for more details.
 
 ---
 
@@ -91,11 +90,5 @@ data-warehouse-project/
 ├── LICENSE                  # Licensing info
 └── requirements.txt         # Project dependencies
 ```
-
----
-
-## 🛡️ License
-
-This project is licensed under the [MIT License](LICENSE). Free to use, modify, and distribute with appropriate attribution.
 
 ---
